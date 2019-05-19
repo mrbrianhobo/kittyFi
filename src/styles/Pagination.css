@@ -1,0 +1,12 @@
+.pagination-container {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.page-number {
+	margin: 1rem 2rem;
+}

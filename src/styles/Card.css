@@ -1,0 +1,101 @@
+.nes-container.nft-card {
+	margin: 2rem 1rem;
+	width: 300px;
+	height: 400px;
+	padding: 0;
+	border-image-outset: 1;
+	/*transition: all 300ms cubic-bezier(0.16, 0.68, 0.43, 0.99);*/
+	background-color: #FFF;
+	background-clip: padding-box;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.nes-container.nft-card:hover {
+	transform: translateY(-10px);
+}
+
+.nft-image-container {
+	background-color: #BEEBFF;
+	height: 250px;
+}
+
+.nft-top-left-corner {
+	background-color: rgb(33,37,41);
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.nft-top-right-corner {
+	background-color: rgb(33,37,41);
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nft-card-image {
+	margin: 0px auto 0 auto;
+	padding: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+}
+
+.nft-card-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.nft-card-image-4x3 {
+	margin: 0px auto 0 auto;
+	padding: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.nft-card-image-4x3 img {
+    width: 100%;
+    height: auto;
+}
+
+.nft-text-container {
+}
+
+.nft-card-text {
+	width: 100%;
+	height: 142px;
+	border-top: 4px solid rgb(33,37,41);
+	position: relative;
+	padding: 1.5em 2em;
+}
+
+.nft-card-title {
+	margin-top: 0;
+	color: #0D2451;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.nft-card-description {
+	margin-bottom: 0;
+    color: #4A5B7D;
+    font-size: 0.875rem;
+	font-weight: 400;
+    overflow: hidden;
+  	text-overflow: ellipsis;
+}

@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+#root {
+  background-color: #F7F7FA;
+  /*background-color: #D8D7E2;*/
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-wrapper {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 1.1em;
+}
+
+header {
+  margin-bottom: 0.9em;
+  display: flex;
+}
+
+.title {
+  text-decoration: none;
+  color: #212529;
+}
+
+.title:hover{
+  color: #4A5B7D;
+}
+
+.heading {
+  font-size: 1.5em;
+  font-weight: 800;
+  flex-grow: 70;
+}
+
+.account-address {
+  position: absolute;
+  right: 2.5rem;
+  top: 1.875rem;
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #4A5B7D;
+}
+
+.card-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nes-btn.sign-in {
+  position: absolute;
+  right: 3rem;
+  top: 1.5rem;
 }

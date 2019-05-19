@@ -1,0 +1,53 @@
+.nes-container.loading-card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+
+	width: 125px;
+	height: 125px;
+	padding: 0;
+	border-image-outset: 1;
+}
+
+.loading-card img {
+	height: 100%;
+    width: 100%;
+}
+
+.loading-top-left-corner {
+	background-color: rgb(33,37,41);
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.loading-top-right-corner {
+	background-color: rgb(33,37,41);
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.loading-bottom-left-corner {
+	background-color: rgb(33,37,41);
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.loading-bottom-right-corner {
+	background-color: rgb(33,37,41);
+	height: 4px;
+	width: 4px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

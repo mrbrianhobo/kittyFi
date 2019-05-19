@@ -1,0 +1,27 @@
+.search-container {
+    width: 40%;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.search-container-top {
+    width: 40%;
+    
+	position: absolute;
+	top: 1.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.nes-btn.search-button {
+	position: absolute;
+	right: -8px;
+	top: -2px;
+}
+
+.search-bar {
+	position: relative;
+}
