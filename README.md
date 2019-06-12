@@ -3,12 +3,12 @@ genetically unique purrs for each genetically unique cat
 
 ![](demo.png)
 
-ETHNewYork Prize Winner for Best Cryptokitty/Dapper Wallet Hack
+ETHNewYork Prize Winner for Best Cryptokitties/Dapper Wallet Hack
  - https://medium.com/dapperlabs/results-from-the-dapper-and-cryptokitties-hackathon-at-ethnewyork-5af46a2b1edc
  - https://twitter.com/CryptoKitties/status/1130880238773129222
  - https://twitter.com/hellodapper/status/1130885078517596161
 
-check out the full demo on [youtube](https://youtu.be/Jj5-hgjXLkA) or play around with the actual [hack](https://kittyfi.netlify.com/) (warning: it's not super mobile friendly 😅)
+check out the full demo on [youtube](https://youtu.be/Jj5-hgjXLkA) or play around with the actual [hack](https://kittyfi.nfty.fun/) (warning: it's not super mobile friendly 😅)
 
 ## Inspiration
 if you've ever played pokemon, you know that each pokemon has a unique cry/call

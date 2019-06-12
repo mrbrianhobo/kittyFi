@@ -51,7 +51,7 @@ class App extends Component {
     console.log(web3);
     this.setState({ web3: web3 });
     try {
-      let response = await fetch("http://api.etherscan.io/api?module=contract&action=getabi&address=0x06012c8cf97bead5deae237070f9587f8e7a266d&apikey=T36JMNHAMAEKHCQ3IP4UNTPB5ZNENVKA6C");
+      let response = await fetch("https://api.etherscan.io/api?module=contract&action=getabi&address=0x06012c8cf97bead5deae237070f9587f8e7a266d&apikey=T36JMNHAMAEKHCQ3IP4UNTPB5ZNENVKA6C");
       if (!response.ok) {
         throw new Error('Something went wrong');
       }
