@@ -122,8 +122,8 @@ class App extends Component {
       const accounts = await window.ethereum.enable();
       this.setState({ isLoading: true });
       console.log(accounts);
-      // let address = accounts[0];
-      let address = "0xd519169278aa08c5e304062598b824952a32746a";
+      let address = accounts[0];
+      // let address = "0xd519169278aa08c5e304062598b824952a32746a";
       let nfts = await this.getAssets(address, 1, 16);
       let geneList = await this.getGenes(nfts);
       let next = null;

@@ -1,15 +1,32 @@
+# #kittyFi
+genetically unique purrs for each genetically unique cat
+
+![](demo.png)
+
+ETHNewYork Prize Winner for Best Cryptokitty/Dapper Wallet Hack
+ - https://medium.com/dapperlabs/results-from-the-dapper-and-cryptokitties-hackathon-at-ethnewyork-5af46a2b1edc
+ - https://twitter.com/CryptoKitties/status/1130880238773129222
+ - https://twitter.com/hellodapper/status/1130885078517596161
+
+check out the full demo on [youtube](https://youtu.be/Jj5-hgjXLkA) or play around with the actual [hack](https://kittyfi.netlify.com/) (warning: it's not super mobile friendly 😅)
+
 ## Inspiration
 if you've ever played pokemon, you know that each pokemon has a unique cry/call
+
 i took that idea and applied it to cryptokitties!
+
 name inspiration: kitty + spotify + #defi
 
 ## What it does
 explorer for cryptokitties (search by kitty id or login win your eth wallet)
+
 uniqueness factor: if you click on a cat, it will make its unique purr!
 
 ## How I built it
 frontend react client + sound generation algorithm
+
 sound generation: takes 256 bit genetic code and maps parts of the codes to sound opcodes for the gameboy
+
 tools used:
  - opensea api/cryptokitties api: display informational data (name, images, etc)
  - web3: query the cryptokitties smart contract to get a kitty's unique genetic code
